@@ -1,0 +1,90 @@
+	/*for (unsigned int i = 0; i < image.size(); ++i) {
+		for (unsigned int j = 0; j < image[i].size(); ++j) {
+
+			if (function == "replace") {
+				if (image[i][j] == *argv[4]) {
+					new_image[i][j] = *argv[5];
+				}
+			}
+			if (function == "dilation") {
+				if (i == 0 && j == 0) {
+					if (image[i+1][j] == *argv[4] || image[i][j+1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else if (i == 0 && j == image[i].size() -1) {
+					if (image[i+1][j] == *argv[4] || image[i][j-1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else if (i == image.size() -1 && j == 0) {
+					if (image[i-1][j] == *argv[4] || image[i][j+1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else if (i == image.size() -1 && j == image[i].size()) {
+					if (image[i-1][j] == *argv[4] || image[i][j-1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else if (i == 0) {
+					if (image[i+1][j] == *argv[4] || image[i][j+1] == *argv[4] || image[i][j-1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else if (i == image.size() -1) {
+					if (image[i-1][j] == *argv[4] || image[i][j+1] == *argv[4] || image[i][j-1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else if (j == 0) {
+					if (image[i+1][j] == *argv[4] || image[i-1][j] == *argv[4] || image[i][j+1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else if ( j == image[i].size() -1) {
+					if (image[i+1][j] == *argv[4] || image[i-1][j] == *argv[4] || image[i][j-1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				} else {
+					if (image[i+1][j] == *argv[4] || image[i-1][j] == *argv[4] || image[i][j+1] == *argv[4] || image[i][j-1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					}
+				}
+			}
+			if (function == "erosion") {
+				if (image[i][j] == *argv[4]) {
+					if (image[i+1][j] == *argv[4] && image[i-1][j] == *argv[4] && image[i][j+1] == *argv[4] && image[i][j-1] == *argv[4]) {
+						new_image[i][j] = *argv[4];
+					} else if (image[i+1][j] == *argv[4] || image[i-1][j] == *argv[4] || image[i][j+1] == *argv[4] || image[i][j-1] == *argv[4]) {
+						new_image[i][j] = '.';
+					}
+				}
+			}
+
+			
+			if (function == "floodfill") {
+				unsigned int row = atoi(argv[4]);
+				unsigned int column = atoi(argv[5]);
+				if (i >= row && j >= column && image[i][j] != *argv[6] && image[i][j] != '.') {
+					new_image[i][j] = *argv[6];
+				} else {
+					new_image[i][j] = image[i][j];
+				}
+			}
+		}
+	}*/
+
+	replace(char1,char2,image,image[1]) {
+		replace(char 1, char 2) {
+	int row,column;
+	if (column == image.size()-1) {
+		row += 1;
+
+	
+
+	if (image[row][column] != val) {
+		return;
+	}
+
+	if (image[row][column] == val) {
+		new_image[row][column] = val;
+		floodfill(row-1,column,val,image,new_image);
+		floodfill(row,column-1,val,image,new_image);
+		floodfill(row+1,column,val,image,new_image);
+		floodfill(row,column+1,val,image,new_image);
+	}
+		

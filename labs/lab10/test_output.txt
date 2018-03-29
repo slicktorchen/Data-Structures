@@ -1,0 +1,214 @@
+
+Puzzle is solved:
+1234
+3412
+2143
+4321
+value: 1
+value: 4
+value: 3
+value: 1
+value: 2
+value: 1
+value: 4
+
+Cannot solve this puzzle:
+          23   23   
+     2         24   
+          34   34   
+     23   23   123  
+value: 1
+
+Cannot solve this puzzle:
+          234  234  
+234  1234 1234 1234 
+234  1234 1234 1234 
+234  1234 1234 1234 
+value: 1
+value: 2
+value: 2
+value: 1
+
+Cannot solve this puzzle:
+          34   34   
+234  134  1234 34   
+34   134  134       
+234  34   234       
+value: 1
+value: 2
+value: 3
+
+Cannot solve this puzzle:
+          34   34   
+     14   124  124  
+24   134  1234 1234 
+24   134  1234 1234 
+value: 1
+value: 2
+value: 3
+value: 4
+
+Cannot solve this puzzle:
+     24   23   34   
+34   14   13        
+24        12   14   
+23   12        13   
+value: 3
+value: 6
+value: 5
+value: 2
+value: 9
+value: 7
+value: 8
+value: 3
+value: 9
+value: 8
+value: 2
+value: 3
+value: 5
+value: 1
+value: 4
+value: 8
+value: 5
+value: 2
+value: 8
+value: 1
+value: 7
+value: 3
+value: 9
+value: 1
+value: 7
+value: 6
+value: 4
+value: 2
+value: 5
+
+Cannot solve this puzzle:
+                    17                            8                   478       478       
+124569    12348     1359                14568     25689     12346     45689     234689    
+          1247      1579      1469                2569      1246      45679     24679     
+467                                     467                                     467       
+125679    1237                1369      1567      2569                5679      23679     
+469                                     46                                      469       
+24567     23478     357       346                 2568      2346      45678               
+124569    12348     1359      13469     14568               12346     45689     234689    
+179       1378                139       178                 13                            
+value: 3
+value: 6
+value: 5
+value: 9
+value: 7
+value: 8
+value: 3
+value: 9
+value: 8
+value: 2
+value: 3
+value: 5
+value: 1
+value: 4
+value: 8
+value: 5
+value: 2
+value: 8
+value: 1
+value: 7
+value: 3
+value: 9
+value: 1
+value: 7
+value: 6
+value: 4
+value: 2
+value: 5
+
+Cannot solve this puzzle:
+                    17                  12478     28                  478       2478      
+124569    12348     1359                124568    25689     12346     45689     234689    
+          1247      1579      1469                2569      1246      45679     24679     
+467                                     467                                     467       
+125679    1237                1369      12567     2569                5679      23679     
+469                                     46                                      469       
+24567     23478     357       346                 2568      2346      45678               
+124569    12348     1359      13469     124568              12346     45689     234689    
+179       1378                139       178                 13                            
+value: 9
+value: 7
+value: 5
+value: 4
+value: 4
+value: 2
+value: 3
+value: 8
+value: 2
+value: 8
+value: 5
+value: 7
+value: 1
+value: 4
+value: 6
+value: 9
+value: 2
+value: 9
+value: 1
+value: 3
+value: 8
+value: 7
+value: 5
+value: 2
+value: 1
+value: 7
+value: 9
+value: 8
+value: 6
+value: 4
+
+Cannot solve this puzzle:
+1236      2368                136                           36                  12368     
+1567      678       78                  1589                5679                15689     
+134567    3467      347       13569     13459               35679               13569     
+          236                           239       6                   69                  
+13457     3478                135       13458                         1578      1358      
+          246                 56        245                           56                  
+13467               3478                13489     146       3679      16789     13689     
+23456               2348      3569      234589              3569      5689      235689    
+12357               237                           1                   157       1235      
+value: 9
+value: 7
+value: 5
+value: 4
+value: 4
+value: 3
+value: 8
+value: 2
+value: 8
+value: 5
+value: 7
+value: 1
+value: 4
+value: 6
+value: 2
+value: 9
+value: 1
+value: 3
+value: 8
+value: 7
+value: 5
+value: 2
+value: 1
+value: 7
+value: 9
+value: 8
+value: 6
+value: 4
+
+Cannot solve this puzzle:
+1236      2368                136                           36                  12368     
+12567     2678      278                 12589     1269      5679                125689    
+134567    3467      347       13569     13459               35679               13569     
+          236                           239       269                 69                  
+13457     3478                1359      134589    149                 15789     13589     
+          246                 56        245                           56                  
+13467               3478                13489     1469      3679      16789     13689     
+23456               2348      3569      234589              3569      5689      235689    
+12357               237                           12                  157       1235      
